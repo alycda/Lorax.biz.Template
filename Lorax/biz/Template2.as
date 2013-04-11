@@ -1,0 +1,1 @@
+﻿/** * Template * Created for 	Lorax.biz * * @author		Alyssa Davis // hello@alyda.me * @version		0.00.02 * @updated		4.10.13 */ package Lorax.biz {		import flash.display.MovieClip;		public class Template2 extends MovieClip {				public function Template2() {			trace('hello world')		}			}	}
