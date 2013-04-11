@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+	<title>Slideshow Title</title>
+	<!--newline character: &#13; do not put any spaces after this-->
+	<subtitle>subtitle, subtitle &amp; subtitle &#13;A. Name vs. A. Nother</subtitle>
+	<version>WORK IN PROGRESS &#13;April 2013 &#13;Version 1</version>
+	<Menus>
+		<!--the 'id' attribute should be an exact camelCase version of the 'name' value-->
+		<Menu id="section1" order="0">
+			<name>Section 1</name>
+			<src>Section1/section1.swf</src>
+			<submenu>
+				<item id="start" order="0">
+					<name>Start</name>
+					<type>swf</type>
+					<src>Section1/start.swf</src>
+				</item>
+				<item id="item1" order="1">
+					<name>Item 1</name>
+					<type>swf</type>
+					<src>Section1/item1.swf</src>
+				</item>
+			</submenu>
+		</Menu>
+		<Menu id="section2" order="1">
+			<name>Section 2</name>
+			<src>Section2/section2.swf</src>
+			<submenu/>
+		</Menu>
+		<Menu id="section3" order="2">
+			<name>Section 3</name>
+			<src>Section3/section3.swf</src>
+			<submenu>
+				<item id="item1" order="0">
+					<name>Item 1</name>
+					<type>swf</type>
+					<src>Section3/item1.swf</src>
+				</item>
+				<item id="item2" order="1">
+					<name>Item 2</name>
+					<type>swf</type>
+					<src>Section3/item2.swf</src>
+				</item>
+			</submenu>
+		</Menu>
+		<Menu id="section4" order="3">
+			<name>Section 4</name>
+			<src>Section4/section4.swf</src>
+			<submenu>
+				<item id="subsection1" order="0">
+					<name>Subsection 1</name>
+					<type>frame</type>
+					<src>gotoAndStop(1)</src>
+				</item>
+				<item id="subsection2" order="1">
+					<name>Subsection 2</name>
+					<type>frame</type>
+					<src>gotoAndStop(2)</src>
+				</item>
+				<item id="subsection3" order="2">
+					<name>Subsection 3</name>
+					<type>frame</type>
+					<src>gotoAndStop(3)</src>
+				</item>
+				<item id="subsection4" order="3">
+					<name>Subsection 4</name>
+					<type>frame</type>
+					<src>gotoAndStop(4)</src>
+				</item>
+			</submenu>
+		</Menu>
+		<Menu id="section5" order="4">
+			<name>Section 5</name>
+			<src>Section5/section5_01.jpg</src>
+			<submenu/>
+		</Menu>
+	</Menus>
+</template>
